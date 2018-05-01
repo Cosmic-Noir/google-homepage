@@ -1,26 +1,34 @@
 /* CSS Google-Homepage Style Sheet */
-ul {
-  display: block;
-  list-style: none;
+* {
   margin: 0;
   padding: 0;
 }
 
+body {
+  font-family: arial, sans-serif;
+  font-size: 13px
+}
+
 li {
   display: inline;
-  padding: 5px 5px;
+  list-style-type: none;
+}
+
+ul {
+  width: auto;
+  display: inline;
+}
+
+a {
   text-decoration: none;
+  color: dimgrey;
 }
 
-.left1 {
+.nav-bar {
+  height: 30px;
+  top: 10px;
 }
 
-.left2 {
-}
-
-.right1 {
-}
-
-
-.right2 {
+.nbl li {
+  text-size: 150px;
 }
