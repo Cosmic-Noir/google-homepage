@@ -1,6 +1,6 @@
 /* CSS Google-Homepage Style Sheet */
 
-body {
+body, p {
   margin: 0 auto;
   width: 100%;
   font-family: arial, sans-serif;
@@ -12,6 +12,8 @@ body {
 li {
   display: inline;
   list-style-type: none;
+  padding: 10px 10px;
+  font-size: 13px;
 }
 
 ul {
@@ -24,9 +26,17 @@ a {
   text-decoration: none;
 }
 
-img {
-  padding-top: 200px;
-  padding-bottom: 10px;
+
+
+div {
+  position: fixed;
+  bottom: 0;
+
+}
+
+p {
+  font-size: 13px;
+  font-color: dimgrey;
 }
 
 .nbl {
@@ -37,4 +47,27 @@ img {
 .nbr {
   float: right;
   padding-right: 15px
+}
+
+.search {
+  width: 300px;
+  text-align: left;
+}
+
+.navimage {
+  padding-top: 0px;
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+}
+
+#doodle {
+  color: blue;
+}
+
+#googleapp {
+  padding-top: 20px;
 }
